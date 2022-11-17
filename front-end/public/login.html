@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="container my-wrapper d-flex w-100 justify-content-center align-items-center">
+        <form class="w-50 my-form py-3 px-5" >
+            <h1 class="text-center text-primary">Log In</h1>
+            <!-- Username input -->
+            <div class="form-outline mb-4">
+                <label class="form-label" for="username">Username </label>
+              <input type="text" id="username" class="form-control" />
+              
+            </div>
+          
+            <!-- Password input -->
+            <div class="form-outline mb-4">
+                <label class="form-label" for="password">Password</label>
+              <input type="password" id="password" class="form-control" />
+              
+            </div>
+          
+            <!-- 2 column grid layout for inline styling -->
+            <div class="row mb-4">
+              <div class="col d-flex justify-content-center">
+                <!-- Checkbox -->
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="my-checkbox" checked />
+                  <label class="form-check-label" for="my-checkbox"> Remember me </label>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Submit button -->
+            <div class="text-center">
+                <button id="btn-login" type="submit" class="btn btn-primary btn-block">Sign in</button>
+            </div>
+          </form>
+    </div>
+    
+    <!-- <input type="text" id="username">
+    <input type="password" id="password">
+    <button id="btn-login">Login</button> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="../source/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.my-nav {
+    background-color: #ccccff;
+}
+.logo-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.icon-logout {
+    font-size: 30px;
+}
+.input-detail {
+    outline: none;
+    border: none;
+    transition: all .5s;
+    font-weight: bold;
+    font-size: 18px;
+    max-width: 370px;
+}
+.input-detail:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.input-detail:focus {
+    border: 1px solid rgba(0, 0, 0, 0.35);
+} 
